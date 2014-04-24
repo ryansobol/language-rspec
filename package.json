@@ -8,5 +8,11 @@
   "engines": {
     "atom": ">0.50.0"
   },
+  "activationEvents": [
+    "rspec:run-project-specs",
+    "rspec:run-file-specs",
+    "rspec:run-single-spec",
+    "rspec:run-previous-specs"
+  ],
   "dependencies": {}
 }

@@ -1,0 +1,21 @@
+'context-menu':
+  '.overlayer':
+    'Run Project Specs': 'rspec:run-project-specs'
+    'Run File Specs': 'rspec:run-file-specs'
+    'Run Single Spec': 'rspec:run-single-spec'
+    'Run Previous Specs': 'rspec:run-previous-specs'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Language RSpec'
+      'submenu': [
+        { 'label': 'Run Project Specs', 'command': 'rspec:run-project-specs' }
+        { 'label': 'Run File Specs', 'command': 'rspec:run-file-specs' }
+        { 'label': 'Run Single Spec', 'command': 'rspec:run-single-spec' }
+        { 'label': 'Run Previous Specs', 'command': 'rspec:run-previous-specs' }
+      ]
+    ]
+  }
+]
