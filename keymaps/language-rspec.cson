@@ -1,0 +1,5 @@
+'.editor':
+  'alt-cmd-k': 'rspec:run-project-specs'
+  'cmd-k': 'rspec:run-file-specs'
+  'shift-cmd-k': 'rspec:run-single-spec'
+  'ctrl-cmd-k': 'rspec:run-previous-specs'
